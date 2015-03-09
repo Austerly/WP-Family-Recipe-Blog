@@ -1,0 +1,91 @@
+/*
+Theme Name:  Food Recipes
+Theme URI:   http://fasterthemes.com/wordpress-themes/foodrecipes
+Author:      FasterThemes
+Author URI:  http://fasterthemes.com/
+Description: Food Recipes is a Twitter bootstrap based responsive WordPress theme mainly designed for those bloggers who are interested in writing their blogs on food recipes and other food related blogs. This theme can also be used for creating personal and professional blogging websites.
+Version:     1.4.4
+Template:    food-recipes
+*/
+
+@import url("../food-recipes/style.css");
+
+/* Global */
+body {
+	font-family: serif;
+}
+body.custom-background {
+	background-size: initial;
+}
+.main-sidebar {
+	min-height: 620px;
+}
+.foodrecipes-side-menu-bgcolor,
+.foodrecipes-inner-blog-bg,
+.foodrecipes-box-name,
+.foodrecipes-box-paging {
+	background-color: rgba(255, 255, 255, .5);
+}
+.menu-foodrecipes ul li a {
+	background-color: rgba(255,255,255,.8) !important;
+}
+a,
+.main-sidebar a,
+.menu-foodrecipes a,
+.menu-foodrecipes ul li a {
+	color: #008AB2 !important;
+}
+a:hover,
+.main-sidebar a:hover,
+.menu-foodrecipes a:hover,
+.menu-foodrecipes ul li a:hover {
+	color: #00C6FF !important;
+}
+.foodrecipes-site-title {
+	color: #FF7E00;
+}
+.main-sidebar .blog-categories ul {
+	color: #000;
+}
+.foodrecipes-logo>a:hover {
+	text-decoration: none;
+}
+.foodrecipes-logo>a:hover h1 {
+	color: #FF7E00;
+}
+h1, h2, h3, h4, h5, h6,
+.foodrecipes-title > a {
+	font-family: cursive;
+}
+.foodrecipes-inner-blog-text img {
+	width:100%;
+	height: auto;
+}
+ol, ul {
+	display: inline-block;
+}
+.foodrecipes-inner-blog-text > h1:nth-child(2) {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.main-sidebar .search-submit,
+.form-submit input {
+	background-color: #FF7E00;
+	color: #fff;
+	border-radius: 3px;
+	border:transparent;
+}
+.main-sidebar .search-submit:hover,
+.form-submit input:hover {
+	background-color: #fff;
+	color: #FF7E00;
+}
+.comment-respond label {
+	display: block;
+}
+.main-sidebar .search-field,
+textarea {
+	border-radius: 3px;
+	border-color: transparent;
+	background: rgba(255,255,255,0.9);
+}
